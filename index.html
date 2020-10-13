@@ -4,17 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Chat App</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="https://kit.fontawesome.com/cd51d46bae.js" crossorigin="anonymous"></script></head>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cd51d46bae.js" crossorigin="anonymous"></script>
+</head>
 
 <body>
-    <div style="height: 100%; background-color: black;">
+    <div style="height: 100vh;">
+
+        <div id="messages">
+            <ul style="list-style-type:none;">
+                <!-- update msg here -->
+            </ul>
+        </div>
+
         <div class="user-field">
-            <input id="write-msg" class="write-msg" type="text" placeholder="Type your message here....">
+            <input id="write-msg" type="text" placeholder="Type your message here....">
             <button class="send"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
         </div>
+
     </div>
+    <script src="./script.js"></script>
 </body>
 
 </html>
