@@ -25,7 +25,8 @@ body{
     padding-left: 10px;
     outline: none;
     font-family: 'Itim', cursive;
-    font: xx-large;
+    font-size: large;
+    overflow: scroll;
 }
 
 .send{
